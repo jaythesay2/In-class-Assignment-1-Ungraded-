@@ -1,0 +1,6 @@
+(library(ggplot2))
+##setwd("~/My Cheat Tables/Titanic.csv")
+Titanic = read.csv("My Cheat Tables/Titanic.csv", stringsAsFactors = FALSE)
+Titanic$Pclass = factor(Titanic$Pclass)
+Titanic$Survived = factor(Titanic$Survived)
+#Titanic$Sex = factor(Titanic$Sex)
